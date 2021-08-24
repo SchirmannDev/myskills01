@@ -22,7 +22,7 @@ export function Home() {
         <Text style={styles.buttonText}>Add</Text>
       </TouchableOpacity>
 
-      <Text style={styles.title}>My Skills</Text>
+      <Text style={[styles.title, {marginTop: 20}]}>My Skills</Text>
     </View>
   );
 }
