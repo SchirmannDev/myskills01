@@ -15,7 +15,7 @@ export function Button({onPress}) {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: '#f7e900',
+    backgroundColor: '#F0E521',
     padding: 15,
     alignItems: 'center',
     borderRadius: 45,
