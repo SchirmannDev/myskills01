@@ -1,19 +1,19 @@
 import React from 'react';
 import {TouchableOpacity, Text, StyleSheet} from 'react-native';
 
-export function SkillCard() {
+export function SkillCard({skill}) {
   return (
-    <TouchableOpacity key="1" style={styles.buttonSkill}>
-      <Text style={styles.textSkill}>skill</Text>
+    <TouchableOpacity key={skill} style={styles.buttonSkill}>
+      <Text style={styles.textSkill}>{skill}</Text>
     </TouchableOpacity>
   );
 }
 
 const styles = StyleSheet.create({
-  ButtonSkill: {
-    backgroundColor: '#EE346293',
-    paddingb: 20,
-    borderRadius: 45,
+  buttonSkill: {
+    backgroundColor: '#E23A64D3',
+    padding: 20,
+    borderRadius: 50,
     marginTop: 15,
     alignItems: 'center',
   },
@@ -21,5 +21,6 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 18,
     fontWeight: 'bold',
+    textAlign: 'center',
   },
 });
