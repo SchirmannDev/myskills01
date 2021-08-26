@@ -37,7 +37,7 @@ export function Home() {
 
       <Button onPress={handleAddNewSkill} />
 
-      <Text style={[styles.title]}>My Skills</Text>
+      <Text style={[styles.titleSkill]}>My Skills</Text>
 
       <FlatList
         data={mySkills}
@@ -74,5 +74,11 @@ const styles = StyleSheet.create({
     resizeMode: 'cover',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  titleSkill: {
+    color: '#fff',
+    fontSize: 26,
+    fontWeight: 'bold',
+    marginTop: 15,
   },
 });
