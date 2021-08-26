@@ -50,7 +50,7 @@ export function Home() {
         title="New Skill Add"
       />
 
-      <Text style={[styles.titleSkill]}>My Skills</Text>
+      <Text style={[styles.titleSkill]}>My Skills ✨</Text>
 
       <FlatList
         data={mySkills}
