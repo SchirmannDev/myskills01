@@ -6,7 +6,6 @@ import {SkillCard} from '../components/SkillCard';
 interface SkillData {
   id: string;
   name: string;
-  date?: Date;
 }
 
 export function Home() {
@@ -51,8 +50,8 @@ export function Home() {
 
       <FlatList
         data={mySkills}
-        keyExtractor={item => item}
-        renderItem={({item}) => <SkillCard skill={item} />}
+        keyExtractor={item => item.id}
+        renderItem={({item}) => <SkillCard skill={item.name} />}
       />
     </View>
   );
