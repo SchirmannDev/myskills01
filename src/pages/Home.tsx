@@ -10,7 +10,7 @@ interface SkillData {
 
 export function Home() {
   const [newSkill, setNewSkill] = useState('');
-  const [mySkills, setMySkills] = useState([]);
+  const [mySkills, setMySkills] = useState<SkillData[]>([]);
   const [greeting, setGreeting] = useState('');
 
   function handleAddNewSkill() {
