@@ -11,7 +11,7 @@ export function SkillCard({skill}) {
 
 const styles = StyleSheet.create({
   buttonSkill: {
-    backgroundColor: '#E23A64D3',
+    backgroundColor: '#ff007f',
     padding: 20,
     borderRadius: 50,
     marginTop: 15,

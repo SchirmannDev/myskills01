@@ -47,7 +47,7 @@ export function Home() {
       <Button
         onPress={handleAddNewSkill}
         activeOpacity={0.7}
-        title="New Skill Add"
+        title="New Skill Add "
       />
 
       <Text style={[styles.titleSkill]}>My Skills ✨</Text>
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 30,
     paddingVertical: 70,
-    backgroundColor: '#995566',
+    backgroundColor: '#ffa8cb',
   },
   title: {
     color: '#fff',
@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
     textDecorationColor: '#ccc',
   },
   input: {
-    backgroundColor: '#EE346293',
+    backgroundColor: '#ff007f',
     borderRadius: 15,
     marginTop: 15,
     color: '#fff',
