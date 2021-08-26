@@ -9,7 +9,11 @@ export function Home() {
   const [greeting, setGreeting] = useState('');
 
   function handleAddNewSkill() {
-    setMySkills(oldState => [...oldState, newSkill]);
+    const data = {
+      id: String(new Date().getTime()),
+      name: newSkill,
+    };
+    setMySkills(oldState => [...oldState, data]);
   }
 
   useEffect(() => {
