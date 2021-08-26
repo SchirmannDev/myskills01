@@ -9,12 +9,9 @@ import {
 
 type ButtonProps = TouchableOpacityProps;
 
-export function Button({onPress}) {
+export function Button({...rest}: ButtonProps) {
   return (
-    <TouchableOpacity
-      style={styles.button}
-      activeOpacity={0.7}
-      onPress={onPress}>
+    <TouchableOpacity style={styles.button} activeOpacity={0.7} {...rest}>
       <Text style={styles.buttonText}>Add</Text>
     </TouchableOpacity>
   );
