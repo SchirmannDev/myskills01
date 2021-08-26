@@ -69,4 +69,10 @@ const styles = StyleSheet.create({
     padding: 15,
   },
   greetings: {},
+  imageBackground: {
+    flex: 1,
+    resizeMode: 'cover',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 });
