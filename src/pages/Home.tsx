@@ -6,6 +6,7 @@ import {SkillCard} from '../components/SkillCard';
 interface SkillData {
   id: string;
   name: string;
+  date?: Date;
 }
 
 export function Home() {
