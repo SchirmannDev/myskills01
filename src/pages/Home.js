@@ -37,7 +37,7 @@ export function Home() {
 
       <Button onPress={handleAddNewSkill} />
 
-      <Text style={[styles.title, {marginVertical: 20}]}>My Skills</Text>
+      <Text style={[styles.title]}>My Skills</Text>
 
       <FlatList
         data={mySkills}
