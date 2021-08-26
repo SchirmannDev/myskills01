@@ -21,7 +21,7 @@ export function Home() {
     } else {
       setGreeting('Good Night!');
     }
-  }, [mySkills]);
+  }, []);
 
   return (
     <View style={styles.container}>
