@@ -44,7 +44,7 @@ export function Home() {
         onChangeText={setNewSkill}
       />
 
-      <Button onPress={handleAddNewSkill} />
+      <Button onPress={handleAddNewSkill} activeOpacity={0.7} />
 
       <Text style={[styles.titleSkill]}>My Skills</Text>
 
