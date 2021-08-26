@@ -34,7 +34,7 @@ export function Home() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Bem vinda, Cíntia!</Text>
+      <Text style={styles.title}>Welcome 😊, Cíntia!</Text>
       <Text style={styles.greetings}> {greeting}</Text>
 
       <TextInput
@@ -44,7 +44,11 @@ export function Home() {
         onChangeText={setNewSkill}
       />
 
-      <Button onPress={handleAddNewSkill} activeOpacity={0.7} />
+      <Button
+        onPress={handleAddNewSkill}
+        activeOpacity={0.7}
+        title="New Skill Add"
+      />
 
       <Text style={[styles.titleSkill]}>My Skills</Text>
 
